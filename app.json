@@ -1,0 +1,27 @@
+{
+  "expo": {
+    "name": "AI Financial Copilot",
+    "slug": "ai-financial-copilot",
+    "version": "54.0.6",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "userInterfaceStyle": "dark",
+    "splash": {
+      "backgroundColor": "#0A0E1A"
+    },
+    "assetBundlePatterns": ["**/*"],
+    "ios": {
+      "supportsTablet": false,
+      "bundleIdentifier": "com.yourname.aifinancialcopilot"
+    },
+    "android": {
+      "adaptiveIcon": {
+        "backgroundColor": "#0A0E1A"
+      },
+      "package": "com.yourname.aifinancialcopilot"
+    },
+    "web": {
+      "bundler": "metro"
+    }
+  }
+}
